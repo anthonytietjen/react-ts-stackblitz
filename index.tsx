@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
+import moment from 'moment';
 
 interface AppProps { }
 interface AppState {
@@ -23,7 +24,7 @@ class App extends Component<AppProps, AppState> {
         <p>
           Branch 2 
           Start editing to see some magic happen :)
-          Hello
+          Hello {moment().format('MMMM Do YYYY, h:mm:ss a')}
         </p>
       </div>
     );
