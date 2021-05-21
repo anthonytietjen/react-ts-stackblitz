@@ -21,7 +21,7 @@ class App extends Component<AppProps, AppState> {
       <div>
         <Hello name={this.state.name} />
         <p>
-          sdfasdf 
+          Branch 2 
           Start editing to see some magic happen :)
           Hello
         </p>
